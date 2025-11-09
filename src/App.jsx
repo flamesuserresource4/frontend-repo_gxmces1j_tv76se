@@ -3,20 +3,18 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Pricing from './components/Pricing';
-import About from './components/About';
 import Contact from './components/Contact';
-import FAQ from './components/FAQ';
 
 function App() {
   return (
     <div className="font-inter text-slate-800">
       <Navbar />
       <main>
+        {/* Hero with Spline cover background */}
         <Hero />
+        {/* Core sections showcasing offerings and value */}
         <Services />
         <Pricing />
-        <About />
-        <FAQ />
         <Contact />
       </main>
       <footer className="border-t border-slate-200 py-8 bg-white">
